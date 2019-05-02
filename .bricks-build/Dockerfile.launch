@@ -1,8 +1,0 @@
-FROM docker.repo.amobee.com/launcher-base:0.2.0-SNAPSHOT
-
-ARG NAME
-ARG VERSION
-ENV NAME=${NAME} VERSION=${VERSION}
-
-COPY bricks /bricks
-
