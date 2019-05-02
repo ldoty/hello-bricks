@@ -30,7 +30,7 @@ OFFLINE?=false
 
 # Constants
 DOCKER?=docker
-OLD_REPOSITORY?=docker-registry.adconion.com
+OLD_REPOSITORY?=docker.repo.amobee.com
 REPOSITORY?=docker.repo.amobee.com
 DOCKER_BUILD_FLAGS?=
 BUILD_ARGS=--build-arg='NAME=${NAME}' --build-arg='VERSION=${VERSION}'
